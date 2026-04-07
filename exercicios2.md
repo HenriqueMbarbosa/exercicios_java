@@ -1,3 +1,4 @@
+Exercício 1
 public class ExerciciosTiposString {
 
 
@@ -12,6 +13,8 @@ public class ExerciciosTiposString {
 
 }
 
+
+Exercício 2
 public class ExerciciosTiposString {
 
 
@@ -26,6 +29,7 @@ public class ExerciciosTiposString {
 }
 
 
+Exercício 3
 public class ExerciciosTiposString {
 
 
@@ -41,6 +45,7 @@ public class ExerciciosTiposString {
 }
 
 
+Exercício 4
 public class ExerciciosTiposString {
 
 
@@ -59,6 +64,7 @@ public class ExerciciosTiposString {
 }
 
 
+Exercício 5
 public class ExerciciosTiposString {
 
 
@@ -73,6 +79,7 @@ public class ExerciciosTiposString {
 }
 
 
+Exercício 6
 public class ExerciciosTiposString {
 
 
@@ -86,6 +93,7 @@ public class ExerciciosTiposString {
 }
 
 
+Exercício 7
 public class ExerciciosTiposString {
 
 
