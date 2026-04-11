@@ -1,4 +1,4 @@
-Exercicio 1
+Exercicio 1 (Entrada de Dados)
 import java.util.Scanner;
 public class ExerciciosEntrasSaidaDeDados {
     public static void main(String [] args) {
