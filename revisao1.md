@@ -142,3 +142,69 @@ public class ExerciciosBasicos {
 
     }
 }
+
+Exercicio 8
+import java.util.Scanner;
+public class ExerciciosBasicos {
+    public static void main(String[] args) {
+        //Peça 2 números; Use if-else para mostrar qual é o maior.
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro número: ");
+        int num1 = sc.nextInt();
+
+        System.out.println("Digite o segundo número: ");
+        int num2 = sc.nextInt();
+
+        if (num1 > num2) {
+            System.out.println("Maior: " + num1);
+        } else if (num2 > num1) {
+            System.out.println("Maior: " + num2);
+        } else {
+            System.out.println("Os números são iguais");
+        
+        }
+    }
+}
+
+
+Exercicio 9
+public class ExerciciosBasicos {
+    public static void main(String[] args) {
+        //Use for de 1 até 10; Some apenas os números pares.
+
+        int soma = 0;
+
+        for (int i = 1; i <= 10; i++){
+            if (i % 2 == 0){
+                soma += i;
+            }
+        }
+        System.out.println("Soma dos pares: " + soma);
+    }
+}
+
+
+Exercicio 10
+import java.util.Scanner;
+public class ExerciciosBasicos {
+    public static void main(String[] args) {
+        //Use while; Peça números ao usuário; Continue até o usuário digitar 0; Some todos os números digitados.
+
+        Scanner sc = new Scanner(System.in);
+
+        int soma = 0;
+        int numero = -1;
+
+        while (numero != 0) {
+            System.out.println("Digite um número:");
+            numero = sc.nextInt();
+
+            if (numero != 0) {
+                soma += numero;
+            }
+        }
+        System.out.println("Soma: " + soma);
+    }
+}
