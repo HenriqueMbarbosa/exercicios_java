@@ -75,3 +75,26 @@ public class Arrays {
 
 
 Exercicio 6
+package aprendendo.programar.introducao;
+//Crie uma matriz:
+//{
+//    {2, 4},
+//    {6, 8}
+//}
+//Mostre apenas os valores pares maiores que 4.
+public class ArraysMultidimensionais {
+    public static void main(String[] args) {
+        int[][] arrayInt = new int[2][2];
+
+        arrayInt[0] = new int[]{2, 4};
+        arrayInt[1] = new int[]{6, 8};
+
+        for(int[] arrayBase: arrayInt){
+            for(int num: arrayBase){
+                if(num % 2 == 0 && num > 4){
+                    System.out.println(num);
+                }
+            }
+        }
+    }
+}
